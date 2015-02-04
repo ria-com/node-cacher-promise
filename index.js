@@ -13,7 +13,15 @@
         );
 
     var keyMaker = function(name , salt, args) {
-        var suffix = args.join('_');
+        var strArgs = [];
+        args.forEach(function(arg) {
+            var newArg = arg;
+            if (typeof arg == 'object' || arg == 'array') {
+                newArg = JSON.stringify(arg);
+            }
+            strArgs.push(newArg);
+        });
+        var suffix = strArgs.join('_');
         if (config.cache.key.crc32) {
             suffix = crc.crc32(suffix).toString(16);
         }

@@ -1,6 +1,6 @@
 {
   "name": "cacher-promise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cache results of target function (if function return results in promise)",
   "author": {
     "name": "Oleg Cherniy",
