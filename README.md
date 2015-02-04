@@ -11,7 +11,7 @@ example
 var Q = require("q"),
     cacher = require("cache-promise");
 
-var testMethodPromise = function testGenerator (a) {
+var testMethodPromise = function testMethodPromise (a) {
     return Q.delay(a+1, 1000);
 };
 

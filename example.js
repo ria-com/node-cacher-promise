@@ -1,7 +1,7 @@
 var Q = require("q"),
     cacher = require("./");
 
-var testMethodPromise = function testGenerator (a) {
+var testMethodPromise = function testMethodPromise (a) {
     return Q.delay(a+1, 1000);
 };
 
