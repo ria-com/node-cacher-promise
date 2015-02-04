@@ -1,0 +1,28 @@
+{
+  "name": "cacher-promise",
+  "version": "0.0.1",
+  "description": "Cache results of target function (if function return results in promise)",
+  "author": {
+    "name": "Oleg Cherniy",
+    "email": "oleg.cherniy@gmail.com"
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "dependencies": {
+    "config": "*",
+    "crc": "*",
+    "q": "*",
+    "memcache-promise": "*"
+  },
+  "devDependencies": {
+    "jasmine-node": "*"
+  },
+  "scripts": {
+    "start": "node --harmony index.js",
+    "test": "node --harmony ./node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+  },
+  "engines": {
+    "node": ">=0.11.x"
+  }
+}
