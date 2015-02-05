@@ -1,6 +1,6 @@
 {
   "name": "cacher-promise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cache results of target function (if function return results in promise)",
   "author": {
     "name": "Oleg Cherniy",
@@ -13,7 +13,6 @@
     "config": "*",
     "crc": "*",
     "q": "*",
-    "memcache-promise": "*",
     "cacher-utils": "git://github.com/ria-com/node-cacher-utils.git#master"
   },
   "devDependencies": {

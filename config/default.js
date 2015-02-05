@@ -8,6 +8,7 @@ module.exports = {
     },
     cache: {
         expires: 120, // Default cache expires in seconds
+        storage: 'memcached',
         key: {
             prefix: 'cw_',
             crc32: false
