@@ -1,6 +1,6 @@
 {
   "name": "cacher-promise",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Cache results of target function (if function return results in promise)",
   "author": {
     "name": "Oleg Cherniy",
@@ -13,7 +13,7 @@
     "config": "*",
     "crc": "*",
     "q": "*",
-    "cacher-utils": "git://github.com/ria-com/node-cacher-utils.git#master"
+    "cacher-utils": "^0.1.2"
   },
   "devDependencies": {
     "jasmine-node": "*"
