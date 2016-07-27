@@ -49,7 +49,7 @@
                 if (typeof value != 'undefined' ) {
                     deferred.resolve(value);
                 } else {
-                    myFunction.apply(myFunction,args).done(function (value) {
+                    myFunction.apply(myFunction,args).then(function (value) {
                             cacheStorage.set(key,value,time).done();
                             deferred.resolve(value);
                         },
