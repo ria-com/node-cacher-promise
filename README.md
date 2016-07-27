@@ -2,6 +2,8 @@ node-cacher-promise
 ===================
 Cache results of target function (if function return results in promise) 
 
+This module change name to **node-cacher-promise** and move to repository to https://github.com/ria-com/node-co-cache-wrapper
+
 example
 =======
 
