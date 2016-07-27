@@ -13,7 +13,7 @@
     "config": "*",
     "crc": "*",
     "q": "*",
-    "cacher-utils": "^0.1.2"
+    "cacher-utils": "*"
   },
   "devDependencies": {
     "jasmine-node": "*"
