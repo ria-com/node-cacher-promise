@@ -50,7 +50,7 @@
                     deferred.resolve(value);
                 } else {
                     myFunction.apply(myFunction,args).then(function (value) {
-                            cacheStorage.set(key,value,time).done();
+                            cacheStorage.set(key,value,time).then();
                             deferred.resolve(value);
                         },
                         deferred.reject
